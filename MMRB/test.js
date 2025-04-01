@@ -1,0 +1,1 @@
+const { io } = require("socket.io-client"); const socket = io("http://192.168.0.106:5000", { transports: ["websocket", "polling"] }); socket.on("connect", () => { console.log("Connected!"); socket.emit("ping_server", { timestamp: Date.now() }); }); socket.on("connect_error", (err) => console.log("Connect error:", err)); setTimeout(() => process.exit(), 5000);

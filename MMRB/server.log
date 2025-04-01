@@ -1,0 +1,10 @@
+nohup: ignoring input
+(node:34358) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:34358) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+🚀 Server running on port 5000
+MongoDB Connected: cluster0-shard-00-01.6icrh.mongodb.net
+✅ MongoDB Connected Successfully
+User connected: 67e3baf3adb16ae261c64619
+User disconnected: 67e3baf3adb16ae261c64619
+User connected: 67e3baf3adb16ae261c64619
